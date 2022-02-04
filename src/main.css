@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
 
 section.section1{
   background-color: #521755;
@@ -9,8 +9,8 @@ section.section1{
 
 img.logo{
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 25px;
+  left: 50px;
 }
 
 nav.navBar{
@@ -105,4 +105,84 @@ img.homeWave{
   width: 100vw;
   position: absolute;
   bottom: 0px;
+}
+
+section.section2{
+  background: linear-gradient(119.66deg, #4A154C 0%, #25306A 73.23%);
+  padding-bottom: 120px;
+}
+
+section.about1{
+  display: flex;
+  column-gap: 20%;
+}
+
+section.about2{
+  display: flex;
+  column-gap: 15%;
+}
+
+div.about1Content{
+  padding-top: 100px;
+  width: 50%;
+}
+
+div.about2Content{
+  padding-top: 100px;
+  width: 40%;
+  margin-left: 10%;
+}
+
+img.zbclogo{
+  width: 252px;
+  height: 252px;
+  margin-top: 100px;
+  margin-left: 10%;
+}
+
+img.robot{
+  width: 369px;
+  height: 270px;
+  margin-top: 100px;
+}
+
+h1.aboutRight{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+h1.aboutLeft{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+p.aboutText{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+p.aboutText2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
 }

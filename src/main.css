@@ -186,3 +186,56 @@ p.aboutText2{
   line-height: 36px;
   color: #FFFFFF;
 }
+
+section.section3{
+  position: relative;
+  background: url("./images/wave-2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1.work{
+  padding-top: 20px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+hr.separator{
+  border: none;
+  outline: none;
+  height: 5px;
+  width: 25%;
+  border-radius: 2px;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-bottom: 100px;
+}
+
+p.workText{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 350px;
+}
+
+h1.moonLaunch{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: center;
+  color: #022275;
+}

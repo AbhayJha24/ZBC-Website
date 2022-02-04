@@ -9,8 +9,8 @@ function Home() {
   return (
     <>
     <section className="section1">
+    <img src={logo} alt="Logo" className="logo"/>
       <nav className="navBar">
-        <img src={logo} alt="Logo" className="logo"/>
         <li className="navButton">Home</li>
         <li className="navButton">About Us</li>
         <li className="navButton">Our Work</li>
@@ -44,6 +44,13 @@ function Home() {
         </div>
         <img src={robot} alt="Robot" className="robot" />
       </section>
+    </section>
+    <section className="section3">
+      <img src={logo} alt="Logo" className="logo"/>
+      <h1 className="work">Our Work</h1>
+      <hr className="separator" />
+      <p className="workText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dignissimos et provident fuga aperiam autem libero error suscipit unde totam. Maiores, voluptatem ratione! Deleniti corrupti hic nam odio placeat cupiditate.</p>
+      <h1 className="moonLaunch">Moon Launch</h1>
     </section>
     </>
   )

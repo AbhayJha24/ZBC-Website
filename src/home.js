@@ -4,6 +4,24 @@ import section1Image from './images/img.png'
 import wave1 from './images/wave-1.png'
 import zbclogo from './images/zbc-logo.png'
 import robot from './images/robot.png'
+import hexa1 from './images/Polygon 1.png'
+import hexa2 from './images/Polygon 2.png'
+import hexa3 from './images/Polygon 3.png'
+import hexa4 from './images/Polygon 4.png'
+import hexa5 from './images/Polygon 5.png'
+import hexa6 from './images/Polygon 6.png'
+import orbiter1 from './images/img-1.png'
+import orbiter2 from './images/img-2.png'
+import orbiter3 from './images/img-3.png'
+import sliderLeft from './images/sliderButton1.png'
+import sliderRight from './images/sliderButton2.png'
+import sI1 from './images/slider-img-1.png'
+import sI2 from './images/slider-img-2.png'
+import sI3 from './images/slider-img-3.png'
+import sI4 from './images/slider-img-4.png'
+import sI5 from './images/slider-img-5.png'
+import sI6 from './images/slider-img-6.png'
+
 
 function Home() {
   return (
@@ -51,6 +69,39 @@ function Home() {
       <hr className="separator" />
       <p className="workText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dignissimos et provident fuga aperiam autem libero error suscipit unde totam. Maiores, voluptatem ratione! Deleniti corrupti hic nam odio placeat cupiditate.</p>
       <h1 className="moonLaunch">Moon Launch</h1>
+      <div className="moonLaunchImages">
+        <div className="topImage">
+        <img src={hexa1} alt="HexaImage" className="moonLaunchHexaImage1" />
+        </div>
+        <div className="middleImages">
+          <img src={hexa2} alt="HexaImage" className="moonLaunchHexaImage2" />
+          <img src={hexa3} alt="HexaImage" className="moonLaunchHexaImage3" />
+          </div>
+        <div className="bottomImages">
+        <img src={hexa4} alt="HexaImage" className="moonLaunchHexaImage4" />
+        <img src={hexa5} alt="HexaImage" className="moonLaunchHexaImage5" />
+        <img src={hexa6} alt="HexaImage" className="moonLaunchHexaImage6" />
+        </div>
+      </div>
+      <h1 className="ourOrbiters">Our Orbiters</h1>
+      <div className="orbiterImages">
+        <img src={orbiter1} alt="Orbiters" className="orbiterImage" />
+        <img src={orbiter2} alt="Orbiters" className="orbiterImage" />
+        <img src={orbiter3} alt="Orbiters" className="orbiterImage" />
+      </div>
+      <h1 className="otherProjects">Other Projects</h1>
+      <div className="slider">
+        <img src={sliderLeft} alt="Slider Button" className="sliderButtonL" />
+        <div className="carousel">
+          <img src={sI1} alt="" className="sliderImage" />
+          <img src={sI2} alt="Slider Image" className="sliderImage" />
+          <img src={sI3} alt="Slider Image" className="sliderImage" />
+          <img src={sI4} alt="Slider Image" className="sliderImage" />
+          <img src={sI5} alt="Slider Image" className="sliderImage" />
+          <img src={sI6} alt="Slider Image" className="sliderImage" />
+        </div>
+        <img src={sliderRight} alt="Slider Button" className="sliderButtonR" />
+      </div>
     </section>
     </>
   )

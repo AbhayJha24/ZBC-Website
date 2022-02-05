@@ -239,3 +239,94 @@ h1.moonLaunch{
   text-align: center;
   color: #022275;
 }
+
+div.moonLaunchImages{
+  position: relative;
+  height: 1000px;
+}
+
+img.moonLaunchHexaImage1, img.moonLaunchHexaImage2, img.moonLaunchHexaImage3, img.moonLaunchHexaImage4, img.moonLaunchHexaImage5, img.moonLaunchHexaImage6{
+  width: 420px;
+  height: 363px;
+  margin: auto;
+}
+
+div.topImage{
+  position: absolute;
+  top: 0px;
+  left: 37.5%;
+}
+
+div.middleImages{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 275px;
+  left: 26.5%;
+}
+
+div.bottomImages{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 550px;
+  left: 15.5%;
+}
+
+h1.ourOrbiters{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: center;
+  color: #022275;
+  margin-bottom: 100px;
+}
+
+div.orbiterImages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+  margin-bottom: 100px;
+}
+
+img.orbiterImage{
+  width: 352px;
+  height: 312px;
+}
+
+h1.otherProjects{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: center;
+  color: #022275;
+  margin-bottom: 50px;
+}
+
+div.slider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+div.carousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+  width: 75%;
+  overflow: hidden;
+}
+
+img.sliderImage{
+  width: 276px;
+  height: 247px;
+}

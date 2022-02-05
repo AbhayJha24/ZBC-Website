@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Roboto&display=swap');
 
 section.section1{
   background-color: #521755;
@@ -10,6 +10,12 @@ section.section1{
 img.logo{
   position: absolute;
   top: 25px;
+  left: 50px;
+}
+
+img.logo2{
+  position: absolute;
+  top: 125px;
   left: 50px;
 }
 
@@ -329,4 +335,213 @@ div.carousel{
 img.sliderImage{
   width: 276px;
   height: 247px;
+}
+
+section.section4{
+  position: relative;
+  background: url("./images/wave-4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1.event{
+  padding-top: 120px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+hr.separator2{
+  border: none;
+  outline: none;
+  height: 5px;
+  width: 25%;
+  border-radius: 2px;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-bottom: 350px;
+}
+
+div.eventsCards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+  margin-bottom: 100px;
+}
+
+div.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(157.48deg, #521755 0.87%, #293576 100%);
+  width: 10%;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+img.eventImage{
+  width: 215px;
+  height: 207px;
+  margin-bottom: 50px;
+}
+
+div.whiteButton{
+  background-color: #FFFFFF;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+h1.contact{
+  margin-left: 8%;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  color: #433C78;
+}
+
+div.formMapSection{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 12%;
+  column-gap: 10%;
+}
+
+form.form{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 30%;
+}
+
+input{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+textarea{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+::placeholder{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+input.blueButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1E95F6;
+  width: 200px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding: 1%;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+section.footer{
+  position: relative;
+  background: url("./images/wave-3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  column-gap: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.footerHeading{
+  padding-top: 150px;
+  width: 25%;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2.mailus{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h3.mail{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+div.socialIcons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+}
+
+img.socialIcon{
+  width: 73px;
+  height: 67px;
+}
+
+img.footerImage{
+  position: absolute;
+  top: 60px;
+  right: 50px;
 }

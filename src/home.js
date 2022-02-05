@@ -21,6 +21,16 @@ import sI3 from './images/slider-img-3.png'
 import sI4 from './images/slider-img-4.png'
 import sI5 from './images/slider-img-5.png'
 import sI6 from './images/slider-img-6.png'
+import eI1 from './images/events-img-1.png'
+import eI2 from './images/events-img-2.png'
+import eI3 from './images/events-img-3.png'
+import eI4 from './images/events-img-4.png'
+import social5 from './images/social (1).png'
+import social4 from './images/social (2).png'
+import social3 from './images/social (3).png'
+import social2 from './images/social (4).png'
+import social1 from './images/social (5).png'
+import footerImage from './images/footer-img.png'
 
 
 function Home() {
@@ -101,6 +111,54 @@ function Home() {
           <img src={sI6} alt="Slider Image" className="sliderImage" />
         </div>
         <img src={sliderRight} alt="Slider Button" className="sliderButtonR" />
+      </div>
+    </section>
+    <section className="section4">
+    <img src={logo} alt="Logo" className="logo2"/>
+    <h1 className="event">Our Events</h1>
+    <hr className="separator2" />
+    <div className="eventsCards">
+    <div className="card">
+      <img src={eI1} alt="Events Image" className="eventImage" />
+      <div className="whiteButton">View More</div>
+    </div>
+    <div className="card">
+      <img src={eI2} alt="Events Image" className="eventImage" />
+      <div className="whiteButton">View More</div>
+    </div>
+    <div className="card">
+      <img src={eI3} alt="Events Image" className="eventImage" />
+      <div className="whiteButton">View More</div>
+    </div>
+    <div className="card">
+      <img src={eI4} alt="Events Image" className="eventImage" />
+      <div className="whiteButton">View More</div>
+    </div>
+    </div>
+    <h1 className="contact">Get in Touch</h1>
+    <div className="formMapSection">
+      <form className="form">
+        <input type="text" name="name" placeholder="Enter Name" />
+        <input type="text" name="email"placeholder="Enter your email address" />
+        <textarea name="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+        <input type="button" value="Launch" className="blueButton"/>
+      </form>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.78021807046!2d80.06892727299397!3d13.047822266689678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1644030249166!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+    </div>
+    </section>
+    <section className="footer">
+    <img src={footerImage} alt="Rocket" className="footerImage"/>
+      <h1 className="footerHeading">To Infinity and Beyond !</h1>
+      <div className="footerRightText">
+        <h2 className="mailus">Mail Us</h2>
+        <h3 className="mail">ZBC@space.com</h3>
+        <div className="socialIcons">
+          <img src={social1} alt="Social Icon" className="socialIcon" />
+          <img src={social2} alt="Social Icon" className="socialIcon" />
+          <img src={social3} alt="Social Icon" className="socialIcon" />
+          <img src={social4} alt="Social Icon" className="socialIcon" />
+          <img src={social5} alt="Social Icon" className="socialIcon" />
+        </div>
       </div>
     </section>
     </>
